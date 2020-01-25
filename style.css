@@ -1,0 +1,162 @@
+* {
+  margin: 0 auto; }
+
+.img-container {
+  background-color: #551617; }
+
+.row {
+  display: flex;
+  justify-content: flex-start; }
+
+.column1 {
+  padding-top: 70px;
+  padding-bottom: 25px; }
+
+.column2 {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+nav {
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+a {
+  color: white;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+nav a:hover {
+  background-color: white;
+  color: black; }
+
+.date {
+  color: grey;
+  font-size: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: right;
+  padding: 10px 37px 10px; }
+
+.top-news {
+  width: 95%;
+  color: dimgrey;
+  background-color: lightgrey;
+  font-size: 26px;
+  font-family: "PT Sans Narrow", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.top-news-row {
+  width: 97%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 4px 5px 4px; }
+
+.top-news-column {
+  flex: 27%;
+  max-width: 24%;
+  padding: 0 5px; }
+
+p {
+  background-color: black;
+  color: white;
+  font-size: 23px;
+  font-family: "PT Sans Narrow", sans-serif;
+  padding: 5px 5px 5px 5px; }
+
+.top-news-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%; }
+
+.popular {
+  color: dimgrey;
+  width: 1018px;
+  background-color: lightgrey;
+  font-size: 26px;
+  font-family: "PT Sans Narrow", sans-serif;
+  padding-left: 10px;
+  margin-top: 20px; }
+
+.imgrow2 {
+  margin-top: 20px;
+  padding-top: 70px;
+  height: 17.5%; }
+
+.sideimg {
+  flex: 25%;
+  max-width: 318px;
+  padding: 0 4px;
+  padding-left: 20px;
+  height: 56%;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%; }
+
+.banner-row {
+  width: 80%; }
+
+.section2-row {
+  width: 97%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 4px 5px 4px; }
+
+.section2-column {
+  flex: 35%;
+  max-width: 30%;
+  padding: 0 5px; }
+
+.section2-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%; }
+
+.sideimg2 {
+  flex: 25%;
+  max-width: 200px;
+  padding: 0 4px;
+  padding-left: 20px;
+  height: 55%;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%; }
+
+footer {
+  background-color: black; }
+
+.navfooter a {
+  color: white;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 10px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-top: 30px; }
+
+.footerimg {
+  text-align: right;
+  padding-top: 40px;
+  padding-right: 25px;
+  padding-bottom: 30px; }
+
+.copyright {
+  color: white;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 10px; }
+
+h2 {
+  text-align: center;
+  margin-top: 500px;
+  margin-bottom: 500px; }
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  nav {
+    justify-content: center; } }
+
+/*# sourceMappingURL=style.css.map */
